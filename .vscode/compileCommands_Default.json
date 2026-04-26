@@ -1,0 +1,378 @@
+[
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTC.Build.cs",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTC.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTC.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCCameraManager.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCCameraManager.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCCharacter.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCCharacter.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCGameMode.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCGameMode.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCPlayerController.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/VBNTCPlayerController.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorCharacter.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorCharacter.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorGameMode.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorGameMode.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorPlayerController.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/HorrorPlayerController.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/UI/HorrorUI.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Horror/UI/HorrorUI.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/EnvQueryContext_Target.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/EnvQueryContext_Target.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterAIController.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterAIController.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterNPC.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterNPC.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterNPCSpawner.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterNPCSpawner.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/AI/ShooterStateTreeUtility.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterCharacter.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterCharacter.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterGameMode.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterGameMode.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterPlayerController.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/ShooterPlayerController.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/UI/ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/UI/ShooterBulletCounterUI.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/UI/ShooterUI.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/UI/ShooterUI.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterPickup.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterPickup.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterProjectile.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterProjectile.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterWeapon.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterWeapon.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterWeaponHolder.cpp",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Source/VBNTC/Variant_Shooter/Weapons/ShooterWeaponHolder.h",
+		"arguments": [
+			"/mnt/sda1/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/zzzgooner/Documents/Unreal Projects/VBNTC/.vscode/compileCommands_Default/VBNTC.1.rsp"
+		],
+		"directory": "/mnt/sda1/UnrealEngine/Engine/Source"
+	}
+]

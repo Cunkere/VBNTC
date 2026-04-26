@@ -1,0 +1,887 @@
+{
+	"folders": [
+		{
+			"name": "VBNTC",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/mnt/sda1/UnrealEngine"
+		},
+		{
+			"name": "Vagabond The Chronicels",
+			"path": "../../../Downloads/Vagabond The Chronicels"
+		}
+	],
+"settings": {
+    "typescript.tsc.autoDetect": "off",
+    "npm.autoDetect": "off",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+    "terminal.integrated.env.linux": {
+        "PATH": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64:${env:PATH}",
+        "DOTNET_ROOT": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64",
+        "DOTNET_HOST_PATH": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64/dotnet",
+        "DOTNET_MULTILEVEL_LOOKUP": "0",
+        "DOTNET_ROLL_FORWARD": "LatestMajor"
+    },
+    "dotnet.defaultSolution": "disable"
+},
+	
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "VBNTC Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"Linux",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Test",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTC LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTC LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTC",
+					"LinuxArm64",
+					"Shipping",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTCEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Debug",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTCEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"DebugGame",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VBNTCEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			},
+			{
+				"label": "VBNTCEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"VBNTCEditor",
+					"Linux",
+					"Development",
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/sda1/UnrealEngine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch VBNTC (Debug)",
+				"request": "launch",
+				"program": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Binaries/Linux/VBNTC-Linux-Debug",
+				"preLaunchTask": "VBNTC Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTC (DebugGame)",
+				"request": "launch",
+				"program": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Binaries/Linux/VBNTC-Linux-DebugGame",
+				"preLaunchTask": "VBNTC Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTC (Development)",
+				"request": "launch",
+				"program": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Binaries/Linux/VBNTC",
+				"preLaunchTask": "VBNTC Linux Development Build",
+				"args": [
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTC (Test)",
+				"request": "launch",
+				"program": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Binaries/Linux/VBNTC-Linux-Test",
+				"preLaunchTask": "VBNTC Linux Test Build",
+				"args": [
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTC (Shipping)",
+				"request": "launch",
+				"program": "/home/zzzgooner/Documents/Unreal Projects/VBNTC/Binaries/Linux/VBNTC-Linux-Shipping",
+				"preLaunchTask": "VBNTC Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTCEditor (Debug)",
+				"request": "launch",
+				"program": "/mnt/sda1/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "VBNTCEditor Linux Debug Build",
+				"args": [
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject"
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTCEditor (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/sda1/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "VBNTCEditor Linux DebugGame Build",
+				"args": [
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject"
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch VBNTCEditor (Development)",
+				"request": "launch",
+				"program": "/mnt/sda1/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "VBNTCEditor Linux Development Build",
+				"args": [
+					"/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject"
+				],
+				"cwd": "/mnt/sda1/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/sda1/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/mnt/sda1/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/home/zzzgooner/Documents/Unreal Projects/VBNTC/VBNTC.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"env": {
+					"PATH": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64:${env:PATH}",
+					"DOTNET_ROOT": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64",
+					"DOTNET_HOST_PATH": "/mnt/sda1/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.412/linux-x64/dotnet",
+					"DOTNET_MULTILEVEL_LOOKUP": "0",
+					"DOTNET_ROLL_FORWARD": "LatestMajor"
+				},
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/mnt/sda1/UnrealEngine"
+			}
+		]
+	}
+}
