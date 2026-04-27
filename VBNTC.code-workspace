@@ -16,6 +16,11 @@
 "settings": {
     "typescript.tsc.autoDetect": "off",
     "npm.autoDetect": "off",
+	"C_Cpp.exclusionPolicy": "checkFolders",
+"files.watcherExclude": {
+    "/mnt/sda1/UnrealEngine/**": true
+},
+"C_Cpp.ignoredCompilerErrors": "**/UnrealEngine/**",
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
     "terminal.integrated.env.linux": {
