@@ -20,6 +20,7 @@
 "files.watcherExclude": {
     "/mnt/sda1/UnrealEngine/**": true
 },
+"C_Cpp.errorSquiggles": "disabled",
 "C_Cpp.ignoredCompilerErrors": "**/UnrealEngine/**",
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
@@ -30,7 +31,8 @@
         "DOTNET_MULTILEVEL_LOOKUP": "0",
         "DOTNET_ROLL_FORWARD": "LatestMajor"
     },
-    "dotnet.defaultSolution": "disable"
+	"dotnet.defaultSolution": "disable",
+	"editor.cursorBlinking": "expand"
 },
 	
 	"extensions": {
