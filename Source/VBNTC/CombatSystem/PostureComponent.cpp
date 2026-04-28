@@ -15,7 +15,7 @@ void UPostureComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// Handle broken state timer
+	
 	if (bPostureBroken)
 	{
 		BrokenTimer -= DeltaTime;
@@ -26,10 +26,10 @@ void UPostureComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		return;
 	}
 
-	// Track time since last hit
+	
 	TimeSinceLastHit += DeltaTime;
 
-	// Recover posture after delay
+	
 	if (TimeSinceLastHit >= RecoveryDelay && CurrentPosture > 0.f)
 	{
 		CurrentPosture = FMath::Max(0.f, CurrentPosture - RecoveryRate * DeltaTime);

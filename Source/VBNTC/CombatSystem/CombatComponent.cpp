@@ -92,7 +92,7 @@ void UCombatComponent::PerformHitTrace()
 		Params
 	);
 
-	// Debug visualization — remove for shipping
+	
 #if WITH_EDITOR
 	DrawDebugSphere(GetWorld(), CurrentWeaponLocation, TraceRadius, 8, bHit ? FColor::Red : FColor::Green, false, 0.1f);
 #endif
@@ -130,7 +130,7 @@ void UCombatComponent::ApplyHitToActor(AActor* HitActor, bool bWasBlocked)
 
 		if (bDeflected)
 		{
-			// Deflect — attacker gets posture damage instead
+			
 			UPostureComponent* AttackerPosture = GetOwner()->FindComponentByClass<UPostureComponent>();
 			if (AttackerPosture)
 			{
@@ -140,7 +140,7 @@ void UCombatComponent::ApplyHitToActor(AActor* HitActor, bool bWasBlocked)
 		}
 		else
 		{
-			// Normal block — defender takes posture damage
+			
 			if (TargetPosture)
 			{
 				TargetPosture->AddPosture(BlockPostureDamage);
@@ -149,11 +149,11 @@ void UCombatComponent::ApplyHitToActor(AActor* HitActor, bool bWasBlocked)
 	}
 	else
 	{
-		// Clean hit — deal damage and some posture
+		
 		ACharacter* HitChar = Cast<ACharacter>(HitActor);
 		if (HitChar)
 		{
-			// Apply UE damage system — hook into your health component or ACharacter::TakeDamage
+			
 			HitActor->TakeDamage(HitDamage, FDamageEvent(), GetOwner()->GetInstigatorController(), GetOwner());
 		}
 
