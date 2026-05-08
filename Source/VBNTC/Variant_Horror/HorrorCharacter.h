@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "VBNTCCharacter.h"
+#include "../VBNTCCharacter.h"
 #include "HorrorCharacter.generated.h"
 
 class USpotLightComponent;

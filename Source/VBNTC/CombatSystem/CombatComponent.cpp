@@ -1,5 +1,5 @@
-#include "Engine/DamageEvents.h"
 #include "CombatComponent.h"
+#include "Engine/DamageEvents.h"
 #include "PostureComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"

@@ -13,3 +13,4 @@ public class VBNTCTarget : TargetRules
 		ExtraModuleNames.Add("VBNTC");
 	}
 }
+

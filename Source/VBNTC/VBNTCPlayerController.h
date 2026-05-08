@@ -25,21 +25,22 @@ public:
 	AVBNTCPlayerController();
 
 protected:
+    UPROPERTY(EditAnywhere, Category="Input|Input Mappings")
+    TArray<UInputMappingContext*> DefaultMappingContexts;
 
-	/** Input Mapping Contexts */
-	UPROPERTY(EditAnywhere, Category="Input|Input Mappings")
-	TArray<UInputMappingContext*> DefaultMappingContexts;
+    UPROPERTY(EditAnywhere, Category="Input|Input Mappings")
+    TArray<UInputMappingContext*> MobileExcludedMappingContexts;
 
-	/** Input Mapping Contexts */
-	UPROPERTY(EditAnywhere, Category="Input|Input Mappings")
-	TArray<UInputMappingContext*> MobileExcludedMappingContexts;
-	
-	/** Gameplay initialization */
-	virtual void BeginPlay() override;
+    UPROPERTY(EditAnywhere, Category="UI")
+    TSubclassOf<UUserWidget> MobileControlsWidgetClass;
 
-	/** Input mapping context setup */
-	virtual void SetupInputComponent() override;
+    UPROPERTY()
+    UUserWidget* MobileControlsWidget = nullptr;
 
-	/** Returns true if the player should use UMG touch controls */
-	bool ShouldUseTouchControls() const;
+    UPROPERTY(EditAnywhere, Category="Input")
+    bool bForceTouchControls = false;
+
+    virtual void BeginPlay() override;
+    virtual void SetupInputComponent() override;
+    bool ShouldUseTouchControls() const;
 };
